@@ -11,7 +11,7 @@ const rjala = [
       id: 1,
       name: 'Youcef',
       desc: "\"Ana oustadokom...\"",
-      desc2: "Youcef lmrsho9 l3alamy shikor te3 les vocal tkrt fsl 2 kmlha y3awed fl3am </3.",
+      desc2: "Youcef lmrsho9 shikor te3 les vocal tkrt fsl 2 kmlha y3awed fl3am </3.",
       placement: 1,
       img: pfpyoucef,
     },

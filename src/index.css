@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 :root {
   font-family: -apple-system, BlinkMacSystemFont, 'Droid Arabic Kufi',sans-serif;
-  line-height: 1.5;
+  line-height: 1.5  ;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #171a24;
+  background-color: #1a1e2b78;
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,6 +16,7 @@ p {
   font-size: 1.5rem;
 }
 .card {
+  border-radius: 5px;
   background-color: #1c1f2b;
   transition: 0.5s ease;
   color: white;
@@ -24,6 +25,7 @@ p {
   display: inline-block;
   margin: 0.3rem;
   padding-bottom: 0;
+  box-shadow: 0px 0px 16px 2px rgba(16, 18, 26, 0.544);
 }
 .card-image {
   max-height: 15.625rem;
@@ -38,21 +40,24 @@ p {
 }
 .welcome {
   display: inline-block;
-  background-color: #151720;
+  background-color: #171a24;
   padding-left: 1rem;
   margin-bottom: 0.5rem;
   display: block;
+  box-shadow: 0px 0px 16px 2px rgba(16, 18, 26, 0.72);
 } 
 .news {
   display: inline-block;
-  background-color: #151720;
+  background-color: #171a24;
   padding-left: 1rem;
   margin-bottom: 0.5rem;
+  box-shadow: 0px 0px 16px 2px rgba(16, 18, 26, 0.72);
 }
 .card-container {
   grid-column: 1 / span 2;
-  background-color: #151720;
+  background-color: #171a24;
   padding: 1rem;
+  box-shadow: 0px 0px 16px 2px rgba(16, 18, 26, 0.72);
 }
 .audio-player {
   display: flex;
@@ -64,6 +69,7 @@ p {
   max-width: 80vw;
   font-size: 1.2rem;
   margin-inline: auto;
+  box-shadow: 0px 0px 16px 2px rgba(16, 18, 26, 0.72);
 }
 .person-title{
   text-align: center;
@@ -71,12 +77,21 @@ p {
 .person-stats {
   margin-inline: auto;
   width: 80vw;
-  padding: .5rem;
+  padding-left: .7rem;
+  padding-bottom: .1rem;
   font-size: 1.5rem;
   background-color: #1c1f2b;
+  box-shadow: 0px 0px 16px 2px rgba(16, 18, 26, 0.72);
+}
+
+.person-stats img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 button {
+  box-shadow: 0px 0px 16px 2px rgba(16, 18, 26, 0.72);
   background-color: #6e7fbb;
   border: none;
   color: rgb(255, 255, 255);
@@ -111,10 +126,12 @@ button:hover {
 }
 
 .track-list {
+  width: 45vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-top: 20px;
+  box-shadow: 0px 0px 16px 2px rgba(16, 18, 26, 0.72);
 }
 
 .track {

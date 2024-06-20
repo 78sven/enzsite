@@ -28,7 +28,7 @@ const Person = () => {
       <button>Weli</button>
       </Link>
       
-      <h1 className='person-title'>{name}</h1>
+      
       <PersonStats name={"Moayed"}></PersonStats>
       <h2 className='person-title'>Les vocal te3 {name}:</h2>
       {vocalList.length > 0 ? (
